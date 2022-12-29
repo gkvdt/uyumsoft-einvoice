@@ -1,0 +1,19 @@
+{
+    "name": "gkvdt/uyumsoft-efinvoice",
+    "description": "Eincoice/Earchive integration for uyumsoft",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gkvdt\\UyumsoftEfinvoice\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vedat GÜZELKOKAR",
+            "email": "vedatguzelkokar@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
