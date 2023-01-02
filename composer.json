@@ -1,5 +1,5 @@
 {
-    "name": "gkvdt/uyumsoft-efinvoice",
+    "name": "gkvdt/uyumsoft-einvoice",
     "description": "Eincoice/Earchive integration for uyumsoft",
     "type": "project",
     "license": "MIT",
@@ -8,12 +8,18 @@
             "Gkvdt\\UyumsoftEfinvoice\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "Vedat GÜZELKOKAR",
-            "email": "vedatguzelkokar@gmail.com"
-        }
-    ],
+    "authors": [{
+        "name": "Vedat GÜZELKOKAR",
+        "email": "vedatguzelkokar@gmail.com"
+    }],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gkvdt\\UyumsoftEfinvoice\\Providers\\RouteServiceProviders",
+                "Gkvdt\\UyumsoftEfinvoice\\Providers\\EInvoiceServiceProvider"
+            ]
+        }
+    }
 }
