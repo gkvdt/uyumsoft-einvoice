@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Gkvdt\\UyumsoftEfinvoice\\": "src/"
+            "Gkvdt\\UyumsoftEinvoice\\": "src/"
         }
     },
     "authors": [{
@@ -17,8 +17,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Gkvdt\\UyumsoftEfinvoice\\Providers\\RouteServiceProviders",
-                "Gkvdt\\UyumsoftEfinvoice\\Providers\\EInvoiceServiceProvider"
+                "Gkvdt\\UyumsoftEinvoice\\Providers\\RouteServiceProviders",
+                "Gkvdt\\UyumsoftEinvoice\\Providers\\EInvoiceServiceProvider"
             ]
         }
     }

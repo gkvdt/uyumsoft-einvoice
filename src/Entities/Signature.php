@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\EInvoice\Entities;
+namespace Gkvdt\UyumsoftEinvoice\Entities;
 class Signature
 {
 

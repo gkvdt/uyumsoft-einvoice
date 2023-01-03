@@ -1,12 +1,15 @@
 <?php
 
-namespace Modules\EInvoice\Http\Controllers;
+namespace Gkvdt\UyumsoftEinvoice\Http\Controllers;
 
 use App\Helper\Reply;
 use App\Invoice;
 use App\Notification;
 use App\Notifications\SendInvoiceMail;
 use App\User;
+use Gkvdt\UyumsoftEinvoice\Entities\Customer;
+use Gkvdt\UyumsoftEinvoice\Entities\Order;
+use Gkvdt\UyumsoftEinvoice\WdslRequests\SendInvoiceV2;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
@@ -31,7 +34,14 @@ class EInvoiceController extends Controller
      */
     public function index()
     {
-        return "stop";  
+        $order = [new Order('200',5,'Mustafa') ];
+        $customer = new Customer();
+
+
+
+        $e = new SendInvoiceV2($order,$customer,1234);
+        return $e->request();
+        return $e->test();
 
         //$e = ExcelFile::instance()->addRow(39)->addRow(40)->save()->sendMail();
 

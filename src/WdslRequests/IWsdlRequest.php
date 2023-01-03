@@ -1,5 +1,5 @@
 <?php
-namespace Modules\EInvoice\WdslRequests;
+namespace Gkvdt\UyumsoftEinvoice\WdslRequests;
 
 interface IWsdlRequest {
     public function request();

@@ -1,7 +1,6 @@
 <?php
 
-namespace Modules\EInvoice\WdslRequests;
-use Modules\EInvoice\WdslRequests\WsdlRequest;
+namespace Gkvdt\UyumsoftEinvoice\WdslRequests;
 
 class GetInboxInvoice extends WsdlRequest implements IWsdlRequest {
 

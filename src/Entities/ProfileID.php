@@ -1,5 +1,5 @@
 <?php
-namespace Modules\EInvoice\Entities;
+namespace Gkvdt\UyumsoftEinvoice\Entities;
 
 class ProfileID {
    const TEMELFATURA = "TEMELFATURA";

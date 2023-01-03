@@ -1,5 +1,5 @@
 <?php
-namespace Modules\EInvoice\WdslRequests;
+namespace Gkvdt\UyumsoftEinvoice\WdslRequests;
 
 class GetOutboxInvoicePdf extends WsdlRequest implements IWsdlRequest {
 

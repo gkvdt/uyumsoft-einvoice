@@ -16,3 +16,37 @@ Migrations ve `config/uyumsoft_einvoice.php` dosyalarını publish ettikten sonr
 yapmanız yeterlidir.
 
 Daha sonra `php artisan migrate` komutunu çalıştırdıktan sonra 2 yeni veri tabanı tablosu oluşacaktır. `ws_users` tablosu içerisinde Uyumsoftun kullanıcı adı ve şifresi yer almakta ve user_id ile login olmuş kullanıcı adına göre çekilmektedir. `ws_partys` şirket bilgilerini (adres,telefon vs.. ) içermektedir. (Bknz: [Party.php](https://github.com/gkvdt/uyumsoft-einvoice/blob/master/src/Entities/Party.php))
+
+
+### Örnek Kullanım 
+
+Kullanımı bir WdslRequest oluştruduktan sonra WdslRequest->request(); şeklinde istek atılabilir.
+
+Örneğin;
+
+```
+$wdslRequest = new GetInboxInvoice();
+$wdslRequest->request();
+```
+
+Halihazırda bulunan WdslRequest sınıfından türemiş bütün classlar :
+
+```
+GetEInvoiceUsers
+GetInboxInvoice
+GetInboxInvoiceData
+GetInboxInvoicePdf
+GetInboxInvoices
+GetInboxInvoiceView
+GetOutboxInvoice
+GetOutboxInvoiceData
+GetOutboxInvoicePdf
+GetOutboxInvoices
+GetOutboxInvoiceView
+GetSummaryReport
+GetUserAliasses
+IsEInvoiceUser
+SendInvoiceV2
+
+```
+

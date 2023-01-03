@@ -1,9 +1,8 @@
 <?php
 
-namespace Modules\EInvoice\WdslRequests;
+namespace Gkvdt\UyumsoftEinvoice\WdslRequests;
 
-use Modules\EInvoice\Entities\ID;
-use Modules\EInvoice\WdslRequests\WsdlRequest;
+use Gkvdt\UyumsoftEinvoice\Entities\ID;
 
 class IsEInvoiceUser extends WsdlRequest implements IWsdlRequest
 {
@@ -34,7 +33,7 @@ class IsEInvoiceUser extends WsdlRequest implements IWsdlRequest
     {
         $res = $this->request()->IsEInvoiceUserResult;
        // return json_encode($res);
-      
+        
         if ($res->IsSucceded) {
             
             if ($res->Value)

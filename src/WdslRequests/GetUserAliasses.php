@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\EInvoice\WdslRequests;
+namespace Gkvdt\UyumsoftEinvoice\WdslRequests;
 
 
 class GetUserAliasses extends WsdlRequest implements IWsdlRequest

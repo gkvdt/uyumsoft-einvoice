@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'name' => 'EInvoice'
+    'is_dev' => true
 ];

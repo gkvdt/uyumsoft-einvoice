@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\EInvoice\Database\Seeders;
+namespace Gkvdt\UyumsoftEinvoice\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;

@@ -19,6 +19,8 @@ Route::prefix('einvoice')->group(function() {
 });
 
 
+
+
 Route::get('einvoice-sendmail/{id}',function($id){
     $sendInvoice = new SendInvoice($id);
     return $sendInvoice->sendMail();

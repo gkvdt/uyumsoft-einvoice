@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\EInvoice\WdslRequests;
+namespace Gkvdt\UyumsoftEinvoice\WdslRequests;
 
 
 class GetSummaryReport extends WsdlRequest implements IWsdlRequest

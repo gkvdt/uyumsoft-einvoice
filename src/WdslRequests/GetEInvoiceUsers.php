@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\EInvoice\WdslRequests;
+namespace Gkvdt\UyumsoftEinvoice\WdslRequests;
 class GetEInvoiceUsers extends WsdlRequest implements IWsdlRequest
 {
     public $PageIndex = 1;

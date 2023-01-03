@@ -1,9 +1,6 @@
 <?php
-namespace Modules\EInvoice\Entities;
+namespace Gkvdt\UyumsoftEinvoice\Entities;
 class ID {
-
     const EINVOICE = "OTO";
     const EARCHIVE = "OTB";
-    
-
 }
